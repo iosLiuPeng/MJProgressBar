@@ -1,4 +1,4 @@
-# MJWaveView
+# MJProgressBar
 
 彩色进度条
 
