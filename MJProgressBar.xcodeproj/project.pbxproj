@@ -13,6 +13,9 @@
 		4621419921119D2C0094841C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4621419821119D2C0094841C /* Assets.xcassets */; };
 		4621419C21119D2C0094841C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4621419A21119D2C0094841C /* LaunchScreen.storyboard */; };
 		4621419F21119D2C0094841C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4621419E21119D2C0094841C /* main.m */; };
+		462141AA21119DD60094841C /* ProgressBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 462141A821119DD60094841C /* ProgressBarView.xib */; };
+		462141AB21119DD60094841C /* ProgressBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 462141A921119DD60094841C /* ProgressBarView.m */; };
+		462141AE21119FDE0094841C /* MJGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 462141AC21119FDE0094841C /* MJGradientView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		4621419B21119D2C0094841C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4621419D21119D2C0094841C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4621419E21119D2C0094841C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		462141A721119DD60094841C /* ProgressBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressBarView.h; sourceTree = "<group>"; };
+		462141A821119DD60094841C /* ProgressBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgressBarView.xib; sourceTree = "<group>"; };
+		462141A921119DD60094841C /* ProgressBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressBarView.m; sourceTree = "<group>"; };
+		462141AC21119FDE0094841C /* MJGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJGradientView.m; sourceTree = "<group>"; };
+		462141AD21119FDE0094841C /* MJGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJGradientView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,8 @@
 		4621418E21119D2B0094841C /* MJProgressBar */ = {
 			isa = PBXGroup;
 			children = (
+				462141A521119DD60094841C /* Assets */,
+				462141A621119DD60094841C /* Classes */,
 				4621418F21119D2B0094841C /* AppDelegate.h */,
 				4621419021119D2B0094841C /* AppDelegate.m */,
 				4621419221119D2B0094841C /* ViewController.h */,
@@ -70,6 +80,25 @@
 			);
 			path = MJProgressBar;
 			sourceTree = "<group>";
+		};
+		462141A521119DD60094841C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = SOURCE_ROOT;
+		};
+		462141A621119DD60094841C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				462141AD21119FDE0094841C /* MJGradientView.h */,
+				462141AC21119FDE0094841C /* MJGradientView.m */,
+				462141A721119DD60094841C /* ProgressBarView.h */,
+				462141A921119DD60094841C /* ProgressBarView.m */,
+				462141A821119DD60094841C /* ProgressBarView.xib */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -129,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4621419C21119D2C0094841C /* LaunchScreen.storyboard in Resources */,
+				462141AA21119DD60094841C /* ProgressBarView.xib in Resources */,
 				4621419921119D2C0094841C /* Assets.xcassets in Resources */,
 				4621419721119D2B0094841C /* Main.storyboard in Resources */,
 			);
@@ -142,7 +172,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4621419421119D2B0094841C /* ViewController.m in Sources */,
+				462141AB21119DD60094841C /* ProgressBarView.m in Sources */,
 				4621419F21119D2C0094841C /* main.m in Sources */,
+				462141AE21119FDE0094841C /* MJGradientView.m in Sources */,
 				4621419121119D2B0094841C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

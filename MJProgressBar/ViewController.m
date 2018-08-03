@@ -7,23 +7,20 @@
 //
 
 #import "ViewController.h"
+#import "ProgressBarView.h"
 
 @interface ViewController ()
-
+@property (strong, nonatomic) IBOutlet ProgressBarView *viewProgress;///< 进度条视图
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 
 @end
